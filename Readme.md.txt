@@ -169,19 +169,23 @@ The analysis identified several customer groups with notably higher churn rates,
 These findings provide areas for further investigation and potential retention strategies. They also demonstrate how SQL can be used to transform raw customer data into meaningful business insights.
 
 
+
 ## 11. Project Screenshots
 
 ### Overall Customer Churn
 ![Overall Churn](images/overall_churn_analysis.png)
 
+### Churn by Contract Type
+<!-- Add this screenshot when available -->
+
 ### Churn by Tenure
-![Churn by Tenure](images/churn by tenure.png)
+![Churn by Tenure](images/Churn%20by%20Tenure.png)
 
 ### Churn by Payment Method
-![Churn by Payment](images/churn by payment Method.png)
+![Churn by Payment](images/Churn%20by%20Payment%20Method.png)
 
 ### Churn by Internet Service
-![Churn by Internet Service](images/churn by service.png)
+![Churn by Service](images/Churn%20by%20service.png)
 
 ### Financial Analysis
-![Financial Analysis](images/financial analysis.png)
+![Financial Analysis](images/Financial%20Analysis.png)
