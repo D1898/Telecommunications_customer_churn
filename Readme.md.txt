@@ -167,3 +167,21 @@ Based on the findings, the following actions could be investigated:
 The analysis identified several customer groups with notably higher churn rates, particularly new customers, month-to-month contract customers, electronic-check users, fiber optic subscribers and customers without technical support.
 
 These findings provide areas for further investigation and potential retention strategies. They also demonstrate how SQL can be used to transform raw customer data into meaningful business insights.
+
+
+## 11. Project Screenshots
+
+### Overall Customer Churn
+![Overall Churn](images/overall_churn_analysis.png)
+
+### Churn by Tenure
+![Churn by Tenure](images/churn by tenure.png)
+
+### Churn by Payment Method
+![Churn by Payment](images/churn by payment Method.png)
+
+### Churn by Internet Service
+![Churn by Internet Service](images/churn by service.png)
+
+### Financial Analysis
+![Financial Analysis](images/financial analysis.png)
