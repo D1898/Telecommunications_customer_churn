@@ -1,0 +1,45 @@
+Data Dictionary
+
+Dataset Overview
+
+Dataset:IBM Telco Customer Churn
+
+Total Records:7,043 customers
+
+Total Columns:21
+
+The dataset contains customer demographic information, subscribed services, account details, billing information and churn status.
+
+Column Descriptions
+
+| Column | Data Type | Description |
+|---|---|---|
+| customerID | TEXT | Unique identifier assigned to each customer. |
+| gender | TEXT | Customer's gender. |
+| SeniorCitizen | INTEGER | Indicates whether the customer is a senior citizen (1 = Yes, 0 = No). |
+| Partner | TEXT | Indicates whether the customer has a partner. |
+| Dependents | TEXT | Indicates whether the customer has dependents. |
+| tenure | INTEGER | Number of months the customer has remained with the company. |
+| PhoneService | TEXT | Indicates whether the customer subscribes to phone service. |
+| MultipleLines | TEXT | Indicates whether the customer has multiple phone lines. |
+| InternetService | TEXT | Type of internet service subscribed to. |
+| OnlineSecurity | TEXT | Indicates whether the customer subscribes to online security. |
+| OnlineBackup | TEXT | Indicates whether the customer subscribes to online backup. |
+| DeviceProtection | TEXT | Indicates whether the customer subscribes to device protection. |
+| TechSupport | TEXT | Indicates whether the customer subscribes to technical support. |
+| StreamingTV | TEXT | Indicates whether the customer subscribes to streaming TV. |
+| StreamingMovies | TEXT | Indicates whether the customer subscribes to streaming movies. |
+| Contract | TEXT | Customer's contract type. |
+| PaperlessBilling | TEXT | Indicates whether the customer uses paperless billing. |
+| PaymentMethod | TEXT | Payment method used by the customer. |
+| MonthlyCharges | REAL | Monthly amount charged to the customer. |
+| TotalCharges | REAL | Total amount charged to the customer over the recorded account period. |
+| Churn | TEXT | Indicates whether the customer left the company (Yes or No). |
+
+ Data Quality Notes
+
+- The dataset contains 7,043 customer records.
+- No duplicate customer IDs were detected.
+- Eleven records contain NULL values in `TotalCharges`.
+- All eleven records with missing `TotalCharges` have zero tenure and a churn status of `No`.
+- The missing values were preserved and not replaced with zero.
