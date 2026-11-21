@@ -172,8 +172,7 @@ These findings provide areas for further investigation and potential retention s
 
 ## 11. Project Screenshots
 
-### Overall Customer Churn
-![Overall Churn](images/overall_churn_analysis.png)
+![Overall Churn](https://github.com/D1898/Telecommunications_customer_churn/blob/main/images/overall_churn_analysis.png?raw=true)
 
 ### Churn by Contract Type
 <!-- Add this screenshot when available -->
